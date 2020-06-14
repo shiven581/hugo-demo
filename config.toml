@@ -1,0 +1,8 @@
+baseURL = "http://hugo-test-2.s3-website-us-east-1.amazonaws.com"
+languageCode = "en-us"
+title = "Hugo AWS CD"
+theme = "ananke"
+[[deployment.targets]]
+# An arbitrary name for this target.
+name = "awsbucket"
+URL = "s3://hugo-test-2/?region=us-east-1" #your bucket here
